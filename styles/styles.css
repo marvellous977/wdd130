@@ -9,6 +9,18 @@ nav a {
     padding: 20px
 }
 
+h1 {
+    color: steelblue;
+}
+
+main img {
+    width: 15px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray
+}
+
 nav {
     border: 1px solid steelblue;
     padding: 2px;
@@ -26,7 +38,7 @@ aside {
     /* why use rgba instead of hex here? */
     padding: 1em;
     background-color: #eee;
-    color: #833;
+    color: #333;
     text-align: center;
 }
 
