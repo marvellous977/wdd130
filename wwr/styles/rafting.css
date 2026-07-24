@@ -1,6 +1,7 @@
 :root {
-    --primary-color: #1157ab;
-    --secondary-color: #622e30;
+    --primary-color: #622e30;
+    --secondary-color: #1157ab;
+    --accent1-color: #7e2d2d;
     --accent2-color: #225242;
 
     --heading-font: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -16,6 +17,7 @@
 body {
     font-family: var(--body-font);
     color: var(--accent-color);
+    font-size: 20px;
 }
 
 header,
@@ -43,20 +45,27 @@ article {
     text-decoration: none;
 }
 
+.socialmedia img {
+    width: 4rem;
+    height: 4rem;
+}
+
 .hero {
     position: relative;
 }
 
 .hero h1 {
     position: absolute;
-    top: 2em;
+    top: 1em;
     width: 100%;
     background-color: #6260608a;
+    text-align: center;
+    padding: 3rem 0;
 }
 
 .hero article {
     position: absolute;
-    top: 5em;
+    top: 10em;
     left: 4em;
     right: 4em;
     background-color: #caca06ad;
@@ -65,4 +74,5 @@ article {
 .hero article img {
     float: right;
     width: 200px;
+    padding: 0 0 0 1rem;
 }
