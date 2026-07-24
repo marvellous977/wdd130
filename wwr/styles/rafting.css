@@ -2,7 +2,7 @@
     --primary-color: #622e30;
     --accent1-color: #7e2d2d;
     --secondary-color: #1157ab;
-    --accent2-color: #225242;
+
     --heading-font: 'Gill Sans', 'Gill Sans MT',
         Calibri, 'Trebuchet MS', sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -58,7 +58,7 @@ article {
     position: absolute;
     top: 2em;
     width: 100%;
-    --secondary-color: #1157ab;
+
     text-align: center;
     padding: 2rem 0;
 }
@@ -68,7 +68,7 @@ article {
     top: 12rem;
     left: 4em;
     right: 4em;
-    --accent2-color: #caca06ad;
+
 }
 
 .hero article img {
