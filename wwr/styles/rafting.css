@@ -75,3 +75,22 @@ article {
     width: 200px;
     padding: 0 0 0 1rem;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
