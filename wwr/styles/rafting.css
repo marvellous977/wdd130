@@ -94,3 +94,19 @@ nav a {
     color: black;
     font-weight: bold;
 }
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 20px;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.history h2 {
+    text-align: center;
+}
+
+.history p {
+    text-align: justify;
+}
