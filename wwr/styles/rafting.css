@@ -58,6 +58,7 @@ article {
     top: 2em;
     width: 100%;
     background-color: #6260608a;
+    color: white;
     text-align: center;
     padding: 2rem 0;
 }
@@ -67,7 +68,7 @@ article {
     top: 12rem;
     left: 4em;
     right: 4em;
-    background-color: #caca06ad;
+    background-color: rgba(0, 0, 0, 0, 6);
 }
 
 .hero article img {
