@@ -68,7 +68,8 @@ article {
     top: 12rem;
     left: 4em;
     right: 4em;
-    background-color: rgba(0, 0, 0, 0, 6);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
 }
 
 .hero article img {
