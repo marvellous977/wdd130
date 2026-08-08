@@ -195,6 +195,10 @@ form {
     gap: 10px;
 }
 
+.contact-form {
+    padding: 10px;
+}
+
 form input[type="text"],
 form input[type="email"],
 form textarea {
@@ -210,12 +214,24 @@ fieldset {
 .employees {
     margin-top: 40px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .employees img {
     width: 100px;
     height: 100px;
     object-fit: cover;
+}
+
+.employees h2 {
+    width: 100%;
+}
+
+.employees figure {
+    margin: 10px;
+    text-align: center;
 }
 
 .employees figcaption {
