@@ -214,9 +214,9 @@ fieldset {
 .employees {
     margin-top: 40px;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    gap: 20px;
 }
 
 .employees img {
