@@ -214,8 +214,9 @@ fieldset {
 .employees {
     margin-top: 40px;
     text-align: center;
-    display: grid;
-    grid-template-columns: (3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -227,10 +228,13 @@ fieldset {
 
 .employees h2 {
     width: 100%;
+    text-align: center;
+    margin: 0 0 10px 0;
 }
 
 .employees figure {
-    margin: 10px;
+    width: 28%;
+    margin: 0%;
     text-align: center;
 }
 
