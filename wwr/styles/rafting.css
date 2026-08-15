@@ -124,9 +124,7 @@ nav a {
 
 .adventure {
     display: grid;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+    grid-template-columns: 1fr 1fr;
     gap: 8px;
 }
 
