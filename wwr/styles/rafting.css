@@ -202,6 +202,11 @@ form {
     padding: 10px;
 }
 
+.contact-form fieldset label {
+    display: block;
+    margin-bottom: 6px;
+}
+
 form input[type="text"],
 form input[type="email"],
 form textarea {
