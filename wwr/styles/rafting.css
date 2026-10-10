@@ -669,4 +669,25 @@ footer nav a:focus {
     text-decoration: underline;
 }
 
-.social
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-media a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.social-media img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.social-media img:hover {
+    opacity: 0.75;
+}
