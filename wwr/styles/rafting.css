@@ -319,3 +319,45 @@ button[type="submit"] {
     gap: 2rem;
     margin: 2rem 0;
 }
+
+.trip {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trip img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.trip-table {
+    margin: 3rem 0;
+    overflow-x: auto;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: #0066cc;
+    color: white;
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
