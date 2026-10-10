@@ -388,3 +388,285 @@ button[type="submit"] {
     margin: 0;
     width: 90%;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #164e63;
+    --secondary-color: #0e7490;
+    --accent-color: #f4a261;
+    --heading-color: #123047;
+    --text-color: #333333;
+    --background-color: #f4f8fa;
+    --white-color: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2;
+}
+
+h2 {
+    color: var(--heading-color);
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 5%;
+    background-color: var(--primary-color);
+}
+
+header > img {
+    width: 100px;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+header nav a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover,
+header nav a:focus {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    padding: 1.2rem;
+    color: var(--white-color);
+    background-color: rgba(0, 35, 55, 0.75);
+    text-align: center;
+    font-size: clamp(1.8rem, 4vw, 3.5rem);
+}
+
+.newsletter {
+    text-align: center;
+    padding: 2.5rem 1rem;
+    background-color: #f5f9fc;
+    margin: 2rem 0;
+}
+
+.newsletter > p {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    max-width: 400px;
+    margin: 1.5rem auto 0;
+    text-align: left;
+}
+
+.newsletter-form label {
+    font-weight: bold;
+}
+
+.newsletter-form input {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.newsletter-form input:focus {
+    outline: 2px solid var(--secondary-color);
+    outline-offset: 2px;
+}
+
+.newsletter-form button:hover {
+    padding: 0.7rem;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.newsletter-form button:hover {
+    background-color: #004d99;
+}
+
+.home-cta {
+    text-align: center;
+    padding: 2.5rem 1rem;
+    background-color: #e8f4ff;
+    margin: 2rem 0;
+}
+
+.home-cta p {
+    margin-bottom: 1.5rem;
+}
+
+.home-cta a,
+.adventure-content a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.8rem;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.home-cta a:hover,
+.home-cta a:focus,
+.adventure-content a:hover,
+.adventure-content a:focus {
+    background-color: #004d99;
+}
+
+.features {
+    padding: 2.5rem 5%;
+    text-align: center;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.feature {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.008);
+    text-align: left;
+}
+
+.feature img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.feature h3 {
+    margin: 0 0 0.5rem;
+    color: #003366;
+}
+
+.feature p {
+    margin-bottom: 0;
+}
+
+.home-adventure {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 5%;
+    background-color: #ffffff;
+}
+
+.home-adventure > img {
+    display: block;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.adventure-content {
+    padding: 1rem;
+}
+
+.adventure-content h2 {
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 5%;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+footer nav a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+footer nav a:hover,
+footer nav a:focus {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+.social
